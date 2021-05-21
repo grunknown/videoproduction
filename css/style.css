@@ -76,10 +76,66 @@ ul li {
     font-size: 13px;
     line-height: 20px;
     text-decoration: underline;
+    position: relative;
     color: #FF3D00;
     text-align: right;
     margin: 0;
 }
+
+.schedule__wrap {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.schedule__wrap:hover {
+    cursor: pointer;
+}
+
+.schedule__wrap:hover .dropdown {
+    
+    opacity: 0.8;
+}
+
+.dropdown {
+    padding: 15px 20px 15px;
+    background: #fff;
+    opacity: 0.8;
+    border-radius: 5px;
+    color: #000;
+    position: absolute;
+    top: 92px;
+    text-align: right;
+    
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.dropdown::after {
+    content: "";
+    position: absolute;
+    border: 15px solid transparent;
+    border-bottom-color: #fff;
+    border-top-width: 0;
+    top: -11px;
+    right: 35px;
+}
+
+.dropdown::before {
+    content: "";
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+.dropdown__days {
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+
 
 /*header - end*/
 
