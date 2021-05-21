@@ -195,7 +195,6 @@
 
 .control__check:focus + .control__tag  {
     background: #F2D4C9;
-    border: 1px solid #FF3D00 ;
 }
 
 .control__check {
