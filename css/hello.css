@@ -1,0 +1,48 @@
+/*welocme*/
+@import url(../css/main.css);
+
+.welcome {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/welcome_bg.png) center bottom / cover no-repeat;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    animation-fill-mode: forwards;
+    animation: rotateIn .9s;
+}
+
+.central__logo {
+    margin-bottom: 59px;
+}
+
+@keyframes rotateIn {
+
+    from {
+        transform: scale(0.1) rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    70% {
+        transform: rotate(3deg);
+    }
+
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
