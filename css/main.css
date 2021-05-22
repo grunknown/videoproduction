@@ -23,8 +23,9 @@ ul li {
 }
 
 
-.button {
+button {
     text-transform: uppercase;
+    border: none;
 }
 
 .container {
@@ -429,7 +430,7 @@ ul li {
     font-size: 16px;
     line-height: 27px;
     color: #060606;
-    margin-bottom: 53px;
+    margin-bottom: 40px;
     width: 494px;
 }
 
