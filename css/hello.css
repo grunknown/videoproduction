@@ -1,6 +1,4 @@
 /*welocme*/
-@import url(../css/main.css);
-
 .welcome {
     display: flex;
     position: fixed;

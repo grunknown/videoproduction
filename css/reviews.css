@@ -1,7 +1,3 @@
-
-@import url(../css/main.css);
-@import url(../css/service.css);
-
 .reviews-wrapper {
     background: #fff;
 }
@@ -108,6 +104,18 @@
     justify-content: center;
 }
 
+.reviews-info {
+    color: black;
+}
+
+.reviews-active {
+    color: #fff;
+}
+
+.reviews-pagination {
+    color: black;
+}
+
 .reviews__info-wrapper {
     margin-right: 591px;
 }
@@ -200,6 +208,7 @@
 .control__check {
     appearance: none;
     position: absolute;
+    display: none;
 }
 
 .form__controls {
@@ -227,6 +236,7 @@
     border: none;
     margin-right: 13px;
     transition: all .5s;
+    cursor: pointer;
 }
 
 .button__theme__gray:hover {
@@ -235,4 +245,5 @@
 
 .button__theme__orange {
     border: none;
+    cursor: pointer;
 }
